@@ -22,6 +22,7 @@ Os scripts foram organizados por tema e por ordem de execução para facilitar a
 | [01 - Livraria](<./01 - Livraria/>) | Banco de dados introdutório para cadastro e consulta de livros. | `CREATE TABLE`, `INSERT`, `SELECT`, `WHERE`, `AND` e `OR` |
 | [02 - Funcionários](<./02 - Funcionarios/>) | Consultas sobre uma base de funcionários distribuídos por departamentos. | `COUNT`, `GROUP BY`, `ORDER BY`, filtros e operadores lógicos |
 | [03 - Comércio](<./03 - Comercio/>) | Banco relacional para cadastro de clientes, endereços e telefones. | Chaves, relacionamentos, `INNER JOIN`, relatórios e `UPDATE` |
+| [04 - Triggers](<./04 - Triggers/>) | Bancos criados para cadastros de produtos, estudo de Triggers, Backups e logs. | Chaves, CREATE TABLE, INSERT, UPDATES, Triggers | 
 
 ## 📁 Estrutura dos estudos
 
@@ -44,7 +45,8 @@ mysql
 │   ├── schema.sql
 │   ├── seed.sql
 │   └── queries.sql
-└── README.md
+├── README.md
+└── etc...
 ```
 
 * `schema.sql` - Cria o banco de dados e suas tabelas.
